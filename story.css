@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Jersey 15", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    font-family: "Jersey 15", sans-serif;
+
+    text-decoration: underline;
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.panel {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 30px auto;
+    width: 50%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.05);
+    transition: transform 0.3s;
+}
+
+.panel:hover {
+    transform: scale(1.02);
+}
+
+.panel img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.caption {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.dialogue {
+    font-size: 22px;
+    font-style: italic;
+    color: #f0e68c;
+}
+
+.end-note {
+    margin: 50px;
+    font-size: 25px;
+}
+
+button {
+    font-family: "Jersey 15", sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color:  #0ff;
+    color: black;
+}
